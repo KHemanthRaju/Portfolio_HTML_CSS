@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap');
 
 :root{
-    --primary-color:red;
+    --primary-color:#7C3AED;
 }
 
 body{
     font-family:"Montserrat",sans-serif;
 }
-
+hr{
+    margin:2rem 0rem;
+}
 /** container **/
 .container{
     padding-left:1rem;
@@ -38,3 +40,13 @@ body{
 }
 
 /* look into BEM naming convention for CSS */
+
+/* lists */
+.list-non-bullet{
+    list-style:none;
+}
+
+.list-inline{
+    display:inline;
+    padding:0rem 0.5rem;
+}
