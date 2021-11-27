@@ -1,98 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
-
-    <link href="styles.css" rel="stylesheet" />
+    <title>Home for Hemanth Raju</title>
+    <link href="styles.css" rel="stylesheet"/>
 </head>
-
 <body>
-    <h1>Hemanth Raju's component Library</h1>
-
-    <p>I am attending neog.camp and I want to make a library
-        which would make all my projects look good and
-        consistent</p>
-
-    <hr>
-
-    <h2>@typography</h2>
-    <h1>This is the biggest heading</h1>
-    <h6>This is the smallest heading</h6>
-    <p>This paragraph have a <strong>bold</strong>text</p>
-    <small> Just checking between small and h6</small>
-    <hr>
-
-    <h2>@Container</h2>
-
-    <h3>@Fluid Container</h3>
-    <div class="container">This is a fluid container and it will fo till the end of the page</div>
-
-    <h3>@Center Container</h3>
-    <div class="container container-center">This is a centered container and it will fo till the specified width</div>
-
-    <hr>
-
-    <h2>@Links</h2>
-
-    <a class="link link-primary" href="/">Primary Link</a>
-    <a class="link link-secondary" href="/">Secondary Link</a>
-
-    <hr>
-    <h2>@Lisks</h2>
-    <h3>Unordered List</h3>
-    <p>This list will not have the bullet</p>
-    <ul class="list-non-bullet">
-        <li>Item one</li>
-        <li>Item two</li>
-        <li>Item three</li>
-    </ul>
-    <h3>unordered inline list</h3>
-    <ul class="list-non-bullet">
-        <li class="list-inline">Inline Item one</li>
-        <li class="list-inline">Inline Item two</li>
-        <li class="list-inline">Inline Item three</li>
-    </ul>
-
-    <h3>reverse ordered list</h3>
-    <ol reversed>
-        <li>Milk</li>
-        <li>Eggs</li>
-        <li>Bread</li>
-    </ol>
-    <hr>
-    <h2>@nav</h2>
     <nav class="navigation container">
-        <div class="nav-brand">I am Brand</div>
+        <div class="nav-brand">Hemanth Raju</div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-inline">
-                <a class="link link-active" href="/">home</a>
+                <a class="link link-active" href="/">Home</a>
             </li>
             <li class="list-inline">
-                <a class="link" href="/">products</a>
+                <a class="link" href="/projects.html">Projects</a>
             </li>
             <li class="list-inline">
-                <a class="link" href="/">about</a>
+                <a class="link" href="/blogs.html">Blogs</a>
             </li>
         </ul>
     </nav>
-
-    <hr>
-
-    <h2>Header</h2>
 
     <header class="hero">
         <img class="hero-img" src="images/image2.svg" />
         <h1 class="hero-heading">heading inside hero-<span class="heading-inverted">hemanth Raju</span></h1>
     </header>
-    <hr>
-    <h2>@Sections</h2>
 
     <section class="section">
-        <h1>@White Section</h1>
+        <h1>Technologies</h1>
         <div class="container container-center">
             <p>This will go end to end with little margin at both ends.I won’t be preaching any life lessons here.
                 Instead, I’ll be sharing with you a list of actionable items that you can readily incorporate in your
@@ -101,25 +38,34 @@
     </section>
 
     <section class="section Ow">
-        <h1>@Black Section</h1>
+        <h1>Projects</h1>
         <div class="container container-center">
             <p>This will go end to end with little margin at both ends.I won’t be preaching any life lessons here.
                 Instead, I’ll be sharing with you a list of actionable items that you can readily incorporate in your
                 process.</p>
+        <a class="link link-primary" href="/">SEE PROJECTS</a>
         </div>
     </section>
-    <hr>
+
+    <section class="section">
+        <h1>Technologies</h1>
+        <div class="container container-center">
+            <p>This will go end to end with little margin at both ends.I won’t be preaching any life lessons here.
+                Instead, I’ll be sharing with you a list of actionable items that you can readily incorporate in your
+                process.</p>
+        <a class="link link-secondary" href="/">READ BLOGS</a>
+        </div>
+    </section>
+
     <h2>@footer</h2>
     <footer class="footer">
-        <div class="footer-header">Some small heading inside footer</div>
+        <div class="footer-header">Connect to me on social media</div>
         <ul class="social-links list-non-bullet">
-            <li class="list-inline"> <a class="link" href="/">Socialone</a></li>
-            <li class="list-inline"> <a class="link" href="/">SocialTwo</a></li>
-            <li class="list-inline"> <a class="link" href="/">SocialThree</a></li>
+            <li class="list-inline"> <a class="link" href="https://github.com/KHemanthRaju">Github</a></li>
+            <li class="list-inline"> <a class="link" href="/">Twitter</a></li>
+            <li class="list-inline"> <a class="link" href="https://www.linkedin.com/in/hemanth-raju-aba388176/">LinkedIn</a></li>
         </ul>
     </footer>
 
-    <!-- <div style="height:30vh;"></div> -->
 </body>
-
 </html>
