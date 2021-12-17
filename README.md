@@ -1,2 +1,4 @@
 # Portfolio_HTML_CSS
- HTML and CSS to make Portfolio
+ HTML, CSS and JS to make Portfolio
+ 
+ Personal portfolio : 
