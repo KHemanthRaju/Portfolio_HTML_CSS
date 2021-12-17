@@ -3,4 +3,4 @@
  
  Personal portfolio : 
 
-It contains my projects and blogs
+It contains my projects and blogs.
