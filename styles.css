@@ -4,11 +4,20 @@
     --primary-color: #7C3AED;
     --dark-gray: grey;
     --off-white:#F3F4F6;
+    --colorDark: #111827;
+    --colorMedium: #545964;
+    --colorLight: #ece9e9;
+}
+
+*{
+    box-sizing: border-box;
 }
 
 body {
     font-family: "Montserrat", sans-serif;
-    margin:0px;
+    margin:0 auto;
+    padding:0;
+    scroll-behavior: smooth;
 }
 
 hr {
